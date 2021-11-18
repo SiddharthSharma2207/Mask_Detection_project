@@ -13,4 +13,23 @@ The general idea is to use the knowledge a model has learned from a task with a 
 In computer vision, for example, neural networks usually try to detect edges in the earlier layers, shapes in the middle layer and some task-specific features in the later layers. In transfer learning, the early and middle layers are used and we only retrain the latter layers. It helps leverage the labeled data of the task it was initially trained on. We try to transfer as much knowledge as possible from the previous task the model was trained on to the new task at hand. This knowledge can be in various forms depending on the problem and the data.
 Transfer learning has several benefits, but the main advantages are saving training time, better performance of neural networks (in most cases), and not needing a lot of data. Usually, a lot of data is needed to train a neural network from scratch but access to that data isn't always available — this is where transfer learning comes in handy. With transfer learning a solid machine learning model can be built with comparatively little training data because the model is already pre-trained.
 
+## Dataset
+The data set consists of 1,376 images in total, belonging to two classes.
+•	With_mask: 690 images
+•	Without_mask: 686 images
+
+## Pipeline
+
+![image](https://user-images.githubusercontent.com/52367430/142391579-f69ec0a7-0c90-4b73-afb4-aa1e96194e99.png)
+
+## Performance
+
+![image](https://user-images.githubusercontent.com/52367430/142391747-7cc5aa15-6ba9-43c9-b798-1c390af88936.png)
+
+classification report on test-set:
+
+![image](https://user-images.githubusercontent.com/52367430/142391915-37108f07-65ae-428e-8378-ebd1706530e8.png)
+
+## Results
+
 https://user-images.githubusercontent.com/52367430/142372645-c181753f-e8db-4328-a065-2cd8bc0a5d62.mp4
